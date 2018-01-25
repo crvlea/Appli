@@ -1,0 +1,15 @@
+{
+  "short_name": "Eat in Paris",
+  "name": "Eat in Paris",
+  "icons": [
+    {
+      "src": "images/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#0f4a73"
+}
