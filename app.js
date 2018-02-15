@@ -10,3 +10,29 @@ if('serviceWorker' in navigator) {
     console.log(error);
   }
 }
+
+// var clickme = document.getElementById('click');
+// clickme.addEventListener('click', menu, false);
+//
+// function menu() {
+//     var burger = document.getElementById('menuDeroulant');
+//     burger.style.visibility = "visible";
+//
+// };
+//
+// var clickme = document.getElementById('click');
+// clickme.addEventListener('click', body, false);
+//
+// function Fermermenu() {
+//     var fermer = document.getElementById('menuDeroulant');
+//     fermer.style.visibility = "hidden";
+//
+// };
+
+$('.menuB').click(function(){
+  $('#menuDeroulant').fadeIn();
+});
+
+$('section').click(function(){
+  $('#menuDeroulant').fadeOut();
+});
